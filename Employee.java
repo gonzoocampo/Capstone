@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Employee 
 {
-    // creating private int donation ID
+    // creating private int donation ID //
     private int EmployeeID;
     // static int set as a different value from other classes 
     private static int nextEmployeeID = 1000;
