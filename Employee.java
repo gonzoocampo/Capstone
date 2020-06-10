@@ -22,6 +22,8 @@ public class Employee
     
     public ArrayList<Employee> allEmployees = new ArrayList<>();
     public ArrayList<Employee> roles = new ArrayList<>();
+    
+    
    
     public Employee (String empFirstName, String empLastName, String street, 
         String city, String state, String zipCode, String phoneNumber, 
@@ -157,8 +159,7 @@ public class Employee
     {
         return this.hoursWorked;
     }
-   
-   
+
     // Assign to store method 
     public void assignToNewStore(String storeID)
     {
